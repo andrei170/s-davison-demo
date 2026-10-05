@@ -1,6 +1,8 @@
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--ink:#0e1620;--steel:#1b2735;--slate:#33475b;--amber:#ffb02e;--amber-d:#e08f00;
---line:#dfe5ec;--mut:#5b6b7d;--bg:#fff;--soft:#f4f7fa;--ok:#0f7b4f}
+/* Brand colours recovered from the Feb 2024 archive of sdavisonelectrical.com:
+   navy #002e5b, red #dd3333, near-black #030f27. */
+:root{--ink:#030f27;--steel:#002e5b;--slate:#35506e;--amber:#dd3333;--amber-d:#b42626;
+--line:#dde4ec;--mut:#5b6b7d;--bg:#fff;--soft:#f3f6fa;--ok:#0f7b4f}
 html{scroll-behavior:smooth}
 body{font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
@@ -27,7 +29,7 @@ border-radius:7px;font-size:15px;white-space:nowrap}
 .badges .wrap{display:flex;gap:22px;flex-wrap:wrap;padding:9px 0}
 .badges b{color:var(--ink)}
 .hero{position:relative;overflow:hidden;color:#fff;padding:44px 0 50px;
-background:linear-gradient(160deg,#0e1620 0%,#1b2735 58%,#2a3a4d 100%)}
+background:linear-gradient(160deg,#030f27 0%,#002e5b 58%,#0a4075 100%)}
 .hero:before{content:"";position:absolute;inset:0;opacity:.14;pointer-events:none;
 background-image:linear-gradient(var(--amber) 1px,transparent 1px),
 linear-gradient(90deg,var(--amber) 1px,transparent 1px);background-size:46px 46px;
